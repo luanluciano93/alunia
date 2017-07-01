@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Sam" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="131" head="38" body="113" legs="67" feet="95" addons="0" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="
+			ancient shield, 2532, 900;
+			dark armor, 2489, 400;
+			dark helmet, 2490, 250;
+			serpent sword, 2409, 900;
+			black shield, 2529, 800;
+			bonebreaker, 7428, 10000;
+			dragon hammer, 2434, 2000;
+			dreaded cleaver, 7419, 15000;
+			earth knight axe, 7860, 2000;
+			energy knight axe, 7875, 2000;
+			fiery knight axe, 7750, 2000;
+			giant sword, 2393, 17000;
+			haunted blade, 7407, 8000;
+			icy knight axe, 7769, 2000;
+			knight armor, 2476, 5000;
+			knight axe, 2430, 2000;
+			knight legs, 2477, 5000;
+			mystic turban, 2663, 150;
+			onyx flail, 7421, 22000;
+			ornamented axe, 7411, 20000;
+			poison dagger, 2411, 50;
+			skull staff, 2436, 6000;
+			strange helmet, 2479, 500;
+			titan axe, 7413, 4000;
+			tower shield, 2528, 8000;
+			vampire shield, 2534, 15000;
+			warrior helmet, 2475, 5000;
+			angelic axe, 7436, 5000;
+			blue robe, 2656, 10000;
+			bonelord shield, 2518, 1200;
+			boots of haste, 2195, 30000;
+			broadsword, 2413, 500;
+			butcher's axe, 7412, 18000;
+			crown armor, 2487, 12000;
+			crown helmet, 2491, 2500;
+			crown legs, 2488, 12000;
+			crown shield, 2519, 8000;
+			crusader helmet, 2497, 6000;
+			dragon lance, 2414, 9000;
+			dragon shield, 2516, 4000;
+			earth spike sword, 7854, 1000;
+			earth war hammer, 7868, 1200;
+			energy spike sword, 7869, 1000;
+			energy war hammer, 7883, 1200;
+			fiery spike sword, 7744, 1000;
+			fiery war hammer, 7758, 1200;
+			fire axe, 2432, 8000;
+			fire sword, 2392, 4000;
+			glorious axe, 7454, 3000;
+			guardian shield, 2515, 2000;
+			ice rapier, 2396, 1000;
+			icy spike sword, 7763, 1000;
+			icy war hammer, 7777, 1200;
+			noble armor, 2486, 900;
+			obsidian lance, 2425, 500;
+			phoenix shield, 2539, 16000;
+			queen's sceptre, 7410, 20000;
+			royal helmet, 2498, 30000;
+			shadow sceptre, 7451, 10000;
+			spike sword, 2383, 1000;
+			thaian sword, 7391, 16000;
+			war hammer, 2391, 1200 "
+		/>
+	</parameters>
+</npc>

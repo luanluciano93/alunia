@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Bertha" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="140" head="57" body="97" legs="116" feet="99" addons="0" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			fur backpack,7342,20;
+			camouflage,3940,20;
+			brocade,9774,20;
+			fishing rod,2580,150;
+			machete,2420,40;
+			pick,2553,50;
+			present,1990,10;
+			rope,2120,50;
+			scroll,1949,5;
+			scythe,2550,50;
+			shovel,2554,50;
+			worm,3976,1"
+		/>
+	</parameters>
+</npc>

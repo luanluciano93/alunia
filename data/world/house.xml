@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<houses>
+	<house name="Tower 1" houseid="1" entryx="156" entryy="107" entryz="7" rent="0" townid="1" size="99" />
+	<house name="GuildHouse Street" houseid="6" entryx="190" entryy="42" entryz="7" rent="0" guildhall="true" townid="1" size="44" />
+	<house name="Heavy Depot House" houseid="42" entryx="130" entryy="61" entryz="7" rent="0" townid="1" size="35" />
+	<house name="Heavy Depot House II" houseid="43" entryx="130" entryy="67" entryz="6" rent="0" townid="1" size="57" />
+	<house name="Port house I" houseid="56" entryx="124" entryy="67" entryz="7" rent="0" townid="1" size="145" />
+	<house name="Depot House III" houseid="91" entryx="128" entryy="53" entryz="5" rent="6578" townid="1" size="32" />
+	<house name="Temple House VI" houseid="93" entryx="169" entryy="50" entryz="8" rent="0" townid="1" size="23" />
+	<house name="Temple House VIII" houseid="95" entryx="165" entryy="47" entryz="8" rent="0" townid="1" size="28" />
+	<house name="Blue House I" houseid="120" entryx="508" entryy="62" entryz="12" rent="0" townid="4" size="18" />
+	<house name="Blue House II" houseid="121" entryx="508" entryy="62" entryz="11" rent="0" townid="4" size="18" />
+	<house name="Blue House III" houseid="122" entryx="513" entryy="75" entryz="12" rent="0" townid="4" size="56" />
+	<house name="Blue House IV" houseid="123" entryx="515" entryy="88" entryz="12" rent="0" townid="4" size="27" />
+	<house name="Blue House V" houseid="124" entryx="512" entryy="87" entryz="11" rent="0" townid="4" size="40" />
+	<house name="Blue House VI" houseid="125" entryx="507" entryy="75" entryz="11" rent="0" townid="4" size="24" />
+	<house name="Blue House VII" houseid="126" entryx="515" entryy="101" entryz="12" rent="0" townid="4" size="18" />
+	<house name="Blue House XX" houseid="128" entryx="512" entryy="101" entryz="11" rent="0" townid="4" size="31" />
+	<house name="Blood House I" houseid="129" entryx="189" entryy="34" entryz="7" rent="0" townid="1" size="44" />
+	<house name="Blood House V" houseid="133" entryx="194" entryy="50" entryz="7" rent="0" townid="1" size="30" />
+	<house name="Blood House XX" houseid="137" entryx="202" entryy="39" entryz="7" rent="0" townid="1" size="25" />
+	<house name="Blood House XXI" houseid="139" entryx="209" entryy="39" entryz="7" rent="0" townid="1" size="30" />
+	<house name="Blood House XXII" houseid="140" entryx="210" entryy="39" entryz="6" rent="0" townid="1" size="30" />
+	<house name="Blood House XXIII" houseid="141" entryx="201" entryy="39" entryz="6" rent="0" townid="1" size="25" />
+	<house name="15181" houseid="209" entryx="104" entryy="732" entryz="7" rent="0" townid="0" size="25" />
+	<house name="111" houseid="210" entryx="103" entryy="725" entryz="7" rent="0" townid="0" size="20" />
+	<house name="99898" houseid="211" entryx="104" entryy="737" entryz="7" rent="0" townid="0" size="25" />
+	<house name="4874181" houseid="212" entryx="118" entryy="737" entryz="7" rent="0" townid="0" size="24" />
+	<house name="12334" houseid="213" entryx="117" entryy="725" entryz="7" rent="0" townid="0" size="24" />
+	<house name="1581481" houseid="214" entryx="122" entryy="733" entryz="6" rent="0" townid="0" size="24" />
+	<house name="1818180" houseid="215" entryx="122" entryy="730" entryz="6" rent="0" townid="0" size="24" />
+	<house name="adcaca" houseid="216" entryx="118" entryy="723" entryz="7" rent="0" townid="0" size="72" />
+	<house name="158191" houseid="217" entryx="139" entryy="717" entryz="6" rent="0" townid="0" size="35" />
+	<house name="2343" houseid="218" entryx="132" entryy="721" entryz="7" rent="0" townid="0" size="20" />
+	<house name="34232" houseid="219" entryx="138" entryy="721" entryz="7" rent="0" townid="0" size="20" />
+	<house name="32424" houseid="220" entryx="126" entryy="728" entryz="7" rent="0" townid="0" size="20" />
+	<house name="234234" houseid="221" entryx="119" entryy="740" entryz="7" rent="0" townid="0" size="85" />
+	<house name="3244242" houseid="222" entryx="115" entryy="752" entryz="7" rent="0" townid="0" size="59" />
+	<house name="2342422" houseid="223" entryx="120" entryy="756" entryz="6" rent="0" townid="0" size="42" />
+	<house name="2342342" houseid="224" entryx="145" entryy="746" entryz="7" rent="0" townid="0" size="85" />
+	<house name="23424221" houseid="225" entryx="148" entryy="725" entryz="7" rent="0" townid="0" size="98" />
+	<house name="Svargrond I" houseid="569" entryx="634" entryy="624" entryz="7" rent="0" townid="5" size="65" />
+	<house name="Svargrond Guild House II" houseid="570" entryx="634" entryy="633" entryz="7" rent="0" townid="5" size="27" />
+	<house name="Svargrond III" houseid="571" entryx="652" entryy="635" entryz="7" rent="0" townid="5" size="77" />
+	<house name="Svargrond IV" houseid="572" entryx="657" entryy="637" entryz="7" rent="0" townid="5" size="48" />
+	<house name="Svargrond V" houseid="573" entryx="663" entryy="639" entryz="7" rent="0" townid="5" size="55" />
+	<house name="Svargrond Guild House VI" houseid="574" entryx="621" entryy="632" entryz="7" rent="0" townid="5" size="91" />
+	<house name="Svargrond VII" houseid="575" entryx="639" entryy="646" entryz="7" rent="0" townid="5" size="32" />
+	<house name="Svargrond VIII" houseid="576" entryx="616" entryy="647" entryz="7" rent="0" townid="5" size="46" />
+	<house name="Svargrond IX" houseid="577" entryx="610" entryy="632" entryz="7" rent="0" townid="5" size="61" />
+	<house name="Svargrond X" houseid="578" entryx="614" entryy="640" entryz="7" rent="0" townid="5" size="22" />
+	<house name="Svargrond XI" houseid="579" entryx="613" entryy="648" entryz="7" rent="0" townid="5" size="51" />
+	<house name="Svargrond XII" houseid="580" entryx="598" entryy="656" entryz="7" rent="0" townid="5" size="23" />
+	<house name="Svargrond XIII" houseid="581" entryx="595" entryy="643" entryz="7" rent="0" townid="5" size="18" />
+	<house name="Svargrond XXI" houseid="584" entryx="591" entryy="638" entryz="6" rent="0" townid="5" size="61" />
+	<house name="Svargrond XXII" houseid="585" entryx="581" entryy="640" entryz="7" rent="0" townid="5" size="23" />
+	<house name="Svargrond XXIII" houseid="586" entryx="578" entryy="646" entryz="7" rent="0" townid="5" size="74" />
+	<house name="Svargrond XXIV" houseid="587" entryx="581" entryy="654" entryz="7" rent="0" townid="5" size="30" />
+	<house name="Svargrond Guild House XXV" houseid="588" entryx="608" entryy="670" entryz="7" rent="0" townid="5" size="54" />
+	<house name="Svargrond XXVI" houseid="589" entryx="623" entryy="671" entryz="7" rent="0" townid="5" size="33" />
+	<house name="Svargrond XXVII" houseid="590" entryx="631" entryy="672" entryz="7" rent="0" townid="5" size="88" />
+	<house name="Svargrond XXVIII" houseid="591" entryx="579" entryy="661" entryz="6" rent="0" townid="5" size="37" />
+	<house name="Svargrond XXIX" houseid="592" entryx="572" entryy="663" entryz="6" rent="0" townid="5" size="40" />
+	<house name="Svargrond XXX" houseid="593" entryx="647" entryy="671" entryz="7" rent="0" townid="5" size="32" />
+	<house name="Svargrond XXXI" houseid="594" entryx="655" entryy="662" entryz="7" rent="0" townid="5" size="8" />
+	<house name="Svargrond XXXII" houseid="595" entryx="655" entryy="666" entryz="7" rent="0" townid="5" size="10" />
+	<house name="Svargrond XXXIII" houseid="596" entryx="655" entryy="670" entryz="7" rent="0" townid="5" size="10" />
+	<house name="Svargrond XXXIV" houseid="597" entryx="655" entryy="674" entryz="7" rent="0" townid="5" size="8" />
+	<house name="Svargrond XXXV" houseid="598" entryx="655" entryy="677" entryz="7" rent="0" townid="5" size="8" />
+	<house name="Svargrond XXXVI" houseid="599" entryx="656" entryy="662" entryz="6" rent="0" townid="5" size="7" />
+	<house name="Svargrond XXXVII" houseid="600" entryx="656" entryy="666" entryz="6" rent="0" townid="5" size="7" />
+	<house name="Svargrond XXXVIII" houseid="601" entryx="656" entryy="670" entryz="6" rent="0" townid="5" size="5" />
+	<house name="Svargrond XXXIX" houseid="602" entryx="656" entryy="674" entryz="6" rent="0" townid="5" size="7" />
+	<house name="Svargrond L" houseid="603" entryx="656" entryy="678" entryz="6" rent="0" townid="5" size="7" />
+	<house name="Svargrond House I" houseid="604" entryx="623" entryy="680" entryz="7" rent="0" townid="5" size="43" />
+	<house name="Svargrond House II" houseid="605" entryx="635" entryy="675" entryz="7" rent="0" townid="5" size="26" />
+	<house name="Svargrond House III" houseid="606" entryx="650" entryy="681" entryz="7" rent="0" townid="5" size="67" />
+	<house name="Svargrond House IV" houseid="607" entryx="630" entryy="687" entryz="7" rent="0" townid="5" size="16" />
+	<house name="Svargrond House V" houseid="608" entryx="630" entryy="691" entryz="7" rent="0" townid="5" size="22" />
+	<house name="Svargrond House VI" houseid="609" entryx="632" entryy="703" entryz="7" rent="0" townid="5" size="12" />
+	<house name="Svargrond House VII" houseid="610" entryx="625" entryy="701" entryz="7" rent="0" townid="5" size="25" />
+	<house name="Svargrond Super Guild House I" houseid="611" entryx="616" entryy="687" entryz="7" rent="0" townid="5" size="184" />
+	<house name="Svargrond House IX" houseid="612" entryx="675" entryy="638" entryz="7" rent="0" townid="5" size="14" />
+	<house name="Svargrond House X" houseid="613" entryx="676" entryy="631" entryz="7" rent="0" townid="5" size="16" />
+	<house name="Svargrond House XI" houseid="614" entryx="683" entryy="625" entryz="7" rent="0" townid="5" size="11" />
+	<house name="Svargrond House XII" houseid="615" entryx="682" entryy="619" entryz="7" rent="0" townid="5" size="6" />
+	<house name="Svargrond House XIII" houseid="616" entryx="695" entryy="622" entryz="7" rent="0" townid="5" size="10" />
+	<house name="Svargrond House XIV" houseid="617" entryx="683" entryy="613" entryz="7" rent="0" townid="5" size="11" />
+	<house name="Demona House I" houseid="619" entryx="192" entryy="79" entryz="8" rent="0" townid="1" size="22" />
+	<house name="Jukita I" houseid="623" entryx="121" entryy="127" entryz="7" rent="0" townid="1" size="17" />
+	<house name="Depot House XIX" houseid="626" entryx="163" entryy="115" entryz="7" rent="0" townid="1" size="165" />
+	<house name="Unnamed House #1363" houseid="1363" entryx="490" entryy="929" entryz="8" rent="0" townid="1" size="2" />
+	<house name="Titanic House I" houseid="1372" entryx="159" entryy="63" entryz="5" rent="0" townid="1" size="0" />
+	<house name="Unnamed House #1373" houseid="1373" entryx="290" entryy="669" entryz="6" rent="0" townid="6" size="10" />
+	<house name="Unnamed House #1374" houseid="1374" entryx="289" entryy="682" entryz="7" rent="0" townid="6" size="24" />
+	<house name="Unnamed House #1376" houseid="1376" entryx="309" entryy="676" entryz="7" rent="0" townid="6" size="13" />
+	<house name="Unnamed House #1377" houseid="1377" entryx="316" entryy="677" entryz="7" rent="0" townid="6" size="16" />
+	<house name="Unnamed House #1378" houseid="1378" entryx="320" entryy="669" entryz="7" rent="0" townid="6" size="47" />
+	<house name="Unnamed House #1379" houseid="1379" entryx="325" entryy="663" entryz="7" rent="0" townid="6" size="22" />
+	<house name="Unnamed House #1380" houseid="1380" entryx="328" entryy="674" entryz="7" rent="0" townid="6" size="30" />
+	<house name="Unnamed House #1381" houseid="1381" entryx="339" entryy="667" entryz="7" rent="0" townid="6" size="18" />
+	<house name="Unnamed House #1382" houseid="1382" entryx="335" entryy="682" entryz="7" rent="0" townid="6" size="9" />
+	<house name="Unnamed House #1383" houseid="1383" entryx="311" entryy="685" entryz="7" rent="0" townid="6" size="13" />
+	<house name="Unnamed House #1384" houseid="1384" entryx="298" entryy="695" entryz="7" rent="0" townid="6" size="12" />
+	<house name="Unnamed House #1385" houseid="1385" entryx="297" entryy="702" entryz="7" rent="0" townid="6" size="22" />
+	<house name="Unnamed House #1386" houseid="1386" entryx="322" entryy="712" entryz="7" rent="0" townid="6" size="20" />
+	<house name="Unnamed House #1387" houseid="1387" entryx="281" entryy="700" entryz="5" rent="0" townid="6" size="10" />
+	<house name="Unnamed House #1388" houseid="1388" entryx="282" entryy="698" entryz="5" rent="0" townid="6" size="18" />
+	<house name="Unnamed House #1389" houseid="1389" entryx="343" entryy="657" entryz="4" rent="0" townid="6" size="50" />
+	<house name="Unnamed House #1391" houseid="1391" entryx="585" entryy="638" entryz="7" rent="0" townid="5" size="55" />
+	<house name="Tiquanda I" houseid="1392" entryx="115" entryy="179" entryz="7" rent="0" townid="3" size="30" />
+	<house name="Tiquanda II" houseid="1393" entryx="115" entryy="185" entryz="7" rent="0" townid="3" size="30" />
+	<house name="Tiquanda III" houseid="1394" entryx="127" entryy="190" entryz="7" rent="0" townid="3" size="30" />
+	<house name="Tiquanda IV" houseid="1395" entryx="108" entryy="192" entryz="7" rent="0" townid="3" size="30" />
+	<house name="Tiquanda V" houseid="1396" entryx="108" entryy="198" entryz="7" rent="0" townid="3" size="30" />
+	<house name="Tiquanda VI" houseid="1397" entryx="113" entryy="201" entryz="7" rent="0" townid="3" size="42" />
+	<house name="Tiquanda VII" houseid="1398" entryx="121" entryy="201" entryz="7" rent="0" townid="3" size="42" />
+	<house name="Tiquanda VIII" houseid="1399" entryx="151" entryy="201" entryz="7" rent="0" townid="3" size="30" />
+	<house name="Tiquanda IX" houseid="1400" entryx="151" entryy="207" entryz="7" rent="0" townid="3" size="30" />
+	<house name="Tiquanda XII" houseid="1403" entryx="151" entryy="186" entryz="7" rent="0" townid="3" size="27" />
+	<house name="Blood House XXXXX" houseid="1404" entryx="189" entryy="74" entryz="7" rent="0" townid="1" size="20" />
+	<house name="Blood House XV8" houseid="1405" entryx="176" entryy="34" entryz="7" rent="0" townid="1" size="30" />
+	<house name="Blood House Pl" houseid="1406" entryx="174" entryy="29" entryz="7" rent="0" townid="1" size="20" />
+	<house name="Blood House Xv4" houseid="1407" entryx="163" entryy="37" entryz="7" rent="0" townid="1" size="45" />
+	<house name="Blood House Legas." houseid="1408" entryx="157" entryy="37" entryz="7" rent="0" townid="1" size="45" />
+	<house name="12" houseid="1666" entryx="156" entryy="55" entryz="7" rent="0" townid="0" size="53" />
+	<house name="091" houseid="1674" entryx="165" entryy="47" entryz="7" rent="0" townid="0" size="24" />
+	<house name="19198" houseid="1699" entryx="174" entryy="45" entryz="7" rent="0" townid="0" size="69" />
+	<house name="185194" houseid="1700" entryx="176" entryy="46" entryz="7" rent="0" townid="0" size="80" />
+	<house name="1561851" houseid="1701" entryx="176" entryy="47" entryz="7" rent="0" townid="0" size="64" />
+	<house name="Blood House XX9" houseid="1711" entryx="153" entryy="63" entryz="7" rent="0" townid="0" size="32" />
+	<house name="Blood House Pits" houseid="1712" entryx="151" entryy="69" entryz="7" rent="0" townid="0" size="30" />
+	<house name="Blood City XX2" houseid="1713" entryx="155" entryy="63" entryz="7" rent="0" townid="0" size="32" />
+	<house name="Blood House XX99" houseid="1714" entryx="161" entryy="72" entryz="7" rent="0" townid="0" size="30" />
+	<house name="Blood House 106" houseid="1715" entryx="146" entryy="62" entryz="6" rent="0" townid="1" size="57" />
+	<house name="Blood 156" houseid="1716" entryx="138" entryy="28" entryz="5" rent="0" townid="1" size="84" />
+	<house name="Blood 262" houseid="1717" entryx="166" entryy="62" entryz="6" rent="0" townid="1" size="64" />
+	<house name="Blood 451" houseid="1718" entryx="166" entryy="68" entryz="6" rent="0" townid="1" size="59" />
+	<house name="Blood 51" houseid="1719" entryx="157" entryy="35" entryz="6" rent="0" townid="1" size="35" />
+	<house name="Blood 571" houseid="1720" entryx="164" entryy="35" entryz="6" rent="0" townid="1" size="35" />
+	<house name="Blood 47" houseid="1721" entryx="178" entryy="28" entryz="6" rent="0" townid="1" size="34" />
+	<house name="Blood 781" houseid="1722" entryx="179" entryy="29" entryz="6" rent="0" townid="1" size="75" />
+	<house name="Blood 74" houseid="1723" entryx="178" entryy="30" entryz="6" rent="0" townid="1" size="30" />
+	<house name="Blood 71" houseid="1724" entryx="177" entryy="60" entryz="6" rent="0" townid="1" size="24" />
+	<house name="Blood Nossa" houseid="1725" entryx="177" entryy="55" entryz="5" rent="0" townid="1" size="84" />
+	<house name="Blood Kits" houseid="1726" entryx="146" entryy="52" entryz="6" rent="0" townid="1" size="20" />
+	<house name="Blood House XX7" houseid="1727" entryx="127" entryy="52" entryz="6" rent="0" townid="1" size="40" />
+	<house name="Blood XD" houseid="1728" entryx="124" entryy="60" entryz="6" rent="0" townid="1" size="40" />
+	<house name="Blood X89" houseid="1729" entryx="126" entryy="53" entryz="4" rent="0" townid="1" size="66" />
+	<house name="I" houseid="1730" entryx="751" entryy="1043" entryz="6" rent="0" townid="7" size="15" />
+	<house name="II" houseid="1731" entryx="748" entryy="1035" entryz="6" rent="0" townid="7" size="19" />
+	<house name="III" houseid="1732" entryx="721" entryy="1049" entryz="7" rent="0" townid="7" size="184" />
+	<house name="IV" houseid="1733" entryx="715" entryy="1075" entryz="7" rent="0" townid="7" size="82" />
+	<house name="V" houseid="1734" entryx="707" entryy="1075" entryz="7" rent="0" townid="7" size="55" />
+	<house name="VI" houseid="1735" entryx="707" entryy="1076" entryz="7" rent="0" townid="7" size="39" />
+	<house name="VII" houseid="1736" entryx="715" entryy="1076" entryz="7" rent="0" townid="7" size="105" />
+	<house name="VIII" houseid="1737" entryx="736" entryy="1090" entryz="7" rent="0" townid="7" size="71" />
+	<house name="IX" houseid="1738" entryx="761" entryy="1093" entryz="7" rent="0" townid="7" size="35" />
+	<house name="X" houseid="1739" entryx="772" entryy="1070" entryz="7" rent="0" townid="7" size="23" />
+	<house name="Depot House TOP" houseid="1740" entryx="114" entryy="59" entryz="6" rent="0" townid="1" size="66" />
+	<house name="Maconha I" houseid="1741" entryx="111" entryy="186" entryz="6" rent="0" townid="3" size="47" />
+	<house name="Aeww" houseid="1742" entryx="179" entryy="72" entryz="6" rent="0" townid="1" size="48" />
+	<house name="Unnamed House #1743" houseid="1743" entryx="145" entryy="37" entryz="7" rent="0" townid="1" size="56" />
+	<house name="Unnamed House #1744" houseid="1744" entryx="134" entryy="33" entryz="7" rent="0" townid="1" size="25" />
+	<house name="Unnamed House #1745" houseid="1745" entryx="150" entryy="30" entryz="6" rent="0" townid="1" size="54" />
+	<house name="Unnamed House #1746" houseid="1746" entryx="147" entryy="30" entryz="5" rent="0" townid="1" size="20" />
+	<house name="Village Mall" houseid="1747" entryx="124" entryy="62" entryz="6" rent="0" townid="1" size="70" />
+</houses>
