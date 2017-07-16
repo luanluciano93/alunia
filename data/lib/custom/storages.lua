@@ -15,4 +15,7 @@ Storage = {
 	POIQuestChests = 3007,
 	Inquisition = 3008,
 	RewardSystem = 3009,
+	PvpArena = 3010,
+	DucaTeam = 3011,
+	DucaPoints = 3012,
 }

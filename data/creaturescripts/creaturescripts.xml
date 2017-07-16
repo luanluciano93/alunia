@@ -6,9 +6,19 @@
 	<event type="login" name="OfflineTraining" script="offlinetraining.lua" />
 	<event type="login" name="RegenerateStamina" script="regeneratestamina.lua" />
 	<event type="extendedopcode" name="ExtendedOpcode" script="extendedopcode.lua" />
-	
+
 	<event type="death" name="PlayerDeath" script="playerdeath.lua" />
 	<event type="death" name="DropLoot" script="droploot.lua" />
 	<event type="advance" name="Rewards" script="rewards.lua"/>
 	<event type="advance" name="Promotion" script="promotion.lua"/>
+
+	<!-- DUCA Event -->
+	<event type="login" name="Duca-Login" script="custom/events/duca_creaturescript.lua"/>
+	<event type="logout" name="Duca-Logout" script="custom/events/duca_creaturescript.lua"/>
+	<event type="preparedeath" name="Duca-Death" script="custom/events/duca_creaturescript.lua"/>
+	
+	<!-- PVP Arena -->
+	<event type="login" name="Arena-Login" script="custom/pvp_arena.lua"/>
+	<event type="logout" name="Arena-Logout" script="custom/pvp_arena.lua"/>
+	<event type="preparedeath" name="Arena-Death" script="custom/pvp_arena.lua"/>
 </creaturescripts>

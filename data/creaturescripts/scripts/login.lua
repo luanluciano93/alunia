@@ -42,6 +42,7 @@ function onLogin(player)
 	if not player:isPremium() then
 		player:addPremiumDays(365)
 	end
-	
+	--
+
 	return true
 end

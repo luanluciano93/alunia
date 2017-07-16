@@ -1,4 +1,12 @@
+dofile('data/lib/custom/duca.lua')
+
 function Creature:onChangeOutfit(outfit)
+	-- DUCA EVENT
+	if self:isPlayer() then
+		if self:getStorageValue(DUCA.STORAGE_TEAM) > 0 then
+			return false
+		end
+	end
 	return true
 end
 
@@ -7,5 +15,17 @@ function Creature:onAreaCombat(tile, isAggressive)
 end
 
 function Creature:onTargetCombat(target)
+	if not self then
+		return true
+	end
+
+	-- DUCA EVENT
+    if self:isPlayer() and target:isPlayer() then
+        if self:getStorageValue(DUCA.STORAGE_TEAM) > 0 then
+			if self:getStorageValue(DUCA.STORAGE_TEAM) == target:getStorageValue(DUCA.STORAGE_TEAM) then
+				return RETURNVALUE_YOUMAYNOTATTACKTHISPLAYER
+			end
+        end
+    end
 	return RETURNVALUE_NOERROR
 end

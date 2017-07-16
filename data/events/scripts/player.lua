@@ -24,7 +24,7 @@ function Player:onLook(thing, position, distance)
 			local transformDeEquipId = itemType:getTransformDeEquipId()
 			if transformEquipId ~= 0 then
 				description = string.format("%s\nTransforms to: %d (onEquip)", description, transformEquipId)
-			elseif transformDeEquipId ~= 0 then
+				elseif transformDeEquipId ~= 0 then
 				description = string.format("%s\nTransforms to: %d (onDeEquip)", description, transformDeEquipId)
 			end
 
@@ -192,7 +192,7 @@ function Player:onGainExperience(source, exp, rawExp)
 	end
 
 	-- Vip Account Gain +20% Experience
-	if player:isVip() then
+	if self:isVip() then
 		exp = exp * 1.2
 	end
 	

@@ -5,10 +5,17 @@
 	<globalevent name="Server Save" time="23:55:00" script="serversave.lua" />
 	<globalevent type="startup" name="checkHouses" script="checkHouses.lua" />
 	
+	<!-- Custom -->
+	<globalevent name="text" interval="4550" script="custom/text.lua"/> 
+	
 	<!-- Auto Save -->
 	<globalevent name="AutoSave" time="03:59:00" script="serversave.lua" />
 	<globalevent name="AutoSave1" time="07:59:00" script="serversave.lua" />
 	<globalevent name="AutoSave2" time="11:59:00" script="serversave.lua" />
 	<globalevent name="AutoSave3" time="15:59:00" script="serversave.lua" />
 	<globalevent name="AutoSave4" time="19:59:00" script="serversave.lua" />
+	
+	<!-- Events -->
+	<globalevent name="Duca1" time="15:00:00" script="events/duca_globalevents.lua" />
+	<globalevent name="Duca2" time="21:00:00" script="events/duca_globalevents.lua" />
 </globalevents>
