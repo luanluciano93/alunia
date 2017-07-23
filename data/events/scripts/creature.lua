@@ -1,9 +1,10 @@
 dofile('data/lib/custom/duca.lua')
+dofile('data/lib/custom/battlefield.lua')
 
 function Creature:onChangeOutfit(outfit)
-	-- DUCA EVENT
+	-- DUCA EVENT, BATTLEFIELD EVENT
 	if self:isPlayer() then
-		if self:getStorageValue(DUCA.STORAGE_TEAM) > 0 then
+		if self:getStorageValue(DUCA.STORAGE_TEAM) > 0 or self:getStorageValue(BATTLEFIELD.STORAGE_TEAM) > 0 then
 			return false
 		end
 	end
@@ -19,10 +20,16 @@ function Creature:onTargetCombat(target)
 		return true
 	end
 
-	-- DUCA EVENT
     if self:isPlayer() and target:isPlayer() then
-        if self:getStorageValue(DUCA.STORAGE_TEAM) > 0 then
+		-- DUCA EVENT
+		if self:getStorageValue(DUCA.STORAGE_TEAM) > 0 then
 			if self:getStorageValue(DUCA.STORAGE_TEAM) == target:getStorageValue(DUCA.STORAGE_TEAM) then
+				return RETURNVALUE_YOUMAYNOTATTACKTHISPLAYER
+			end
+		
+		-- BATTLEFIELD EVENT
+		elseif self:getStorageValue(BATTLEFIELD.STORAGE_TEAM) > 0 then
+			if self:getStorageValue(BATTLEFIELD.STORAGE_TEAM) == target:getStorageValue(BATTLEFIELD.STORAGE_TEAM) then
 				return RETURNVALUE_YOUMAYNOTATTACKTHISPLAYER
 			end
         end

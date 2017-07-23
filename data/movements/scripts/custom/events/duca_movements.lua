@@ -5,6 +5,11 @@ function onStepIn(creature, item, position, fromPosition)
 		return false
 	end
 
+	if player:getGroup():getAccess() then
+		creature:teleportTo(DUCA.TEAMS[1].temple)
+		return true
+	end
+
 	if creature:getLevel() < DUCA.LEVEL_MIN then
 		creature:sendCancelMessage("You need level " .. DUCA.LEVEL_MIN .. " to enter in Duca event.")
 		creature:teleportTo(fromPosition)
@@ -17,8 +22,8 @@ function onStepIn(creature, item, position, fromPosition)
 		return false
 	end
 
-	for _, uid in pairs(Game.getPlayers()) do
-		if creature:getIp() == Player(uid):getIp() and Player(uid):getStorageValue(DUCA.STORAGE_TEAM) > 0 then
+	for _, check in ipairs(Game.getPlayers()) do
+		if creature:getIp() == check:getIp() and check:getStorageValue(DUCA.STORAGE_TEAM) > 0 then
 			creature:sendCancelMessage("You already have another player inside the event.")
 			creature:teleportTo(fromPosition)
 			return false

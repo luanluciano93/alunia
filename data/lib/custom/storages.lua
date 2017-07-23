@@ -18,4 +18,5 @@ Storage = {
 	PvpArena = 3010,
 	DucaTeam = 3011,
 	DucaPoints = 3012,
+	BattlefieldTeam = 3013,
 }

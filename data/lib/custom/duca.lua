@@ -43,10 +43,10 @@ end
 
 function DucaBalanceTeam()
 	local time1, time2 = 0, 0
-	for _, uid in pairs(Game.getPlayers()) do
-		if Player(uid):getStorageValue(DUCA.STORAGE_TEAM) == 1 then
+	for _, player in ipairs(Game.getPlayers()) do
+		if player:getStorageValue(DUCA.STORAGE_TEAM) == 1 then
 			time1 = time1 + 1
-		elseif Player(uid):getStorageValue(DUCA.STORAGE_TEAM) == 2 then
+		elseif player:getStorageValue(DUCA.STORAGE_TEAM) == 2 then
 			time2 = time2 + 1
 		end
 	end
@@ -78,9 +78,9 @@ end
 
 function DucaUpdateRank()
 	local participantes = {}
-	for _, uid in pairs(Game.getPlayers()) do
-		if Player(uid):getStorageValue(DUCA.STORAGE_TEAM) > 0 then
-			table.insert(participantes, uid)
+	for _, player in ipairs(Game.getPlayers()) do
+		if player:getStorageValue(DUCA.STORAGE_TEAM) > 0 then
+			table.insert(participantes, player.uid)
 		end
 	end
 
@@ -107,8 +107,7 @@ end
 
 function DucaFinishEvent()
 	DucaUpdateRank()
-	for _, uid in pairs(Game.getPlayers()) do
-		local player = Player(uid)
+	for _, player in ipairs(Game.getPlayers()) do
 		if player:getStorageValue(DUCA.STORAGE_TEAM) == 4 then
 			Game.broadcastMessage("Duca Event is finish. Congratulation to the player ".. player:getName() .." for being the event champion!", MESSAGE_STATUS_WARNING)
 			local itemType = ItemType(DUCA.REWARD_FIRST[1])
@@ -127,7 +126,7 @@ function DucaFinishEvent()
 		end
 
 		if player:getStorageValue(DUCA.STORAGE_TEAM) > 0 then
-			DucaRemovePlayer(uid)
+			DucaRemovePlayer(player.uid)
 		end
 	end
 end

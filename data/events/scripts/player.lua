@@ -24,7 +24,7 @@ function Player:onLook(thing, position, distance)
 			local transformDeEquipId = itemType:getTransformDeEquipId()
 			if transformEquipId ~= 0 then
 				description = string.format("%s\nTransforms to: %d (onEquip)", description, transformEquipId)
-				elseif transformDeEquipId ~= 0 then
+			elseif transformDeEquipId ~= 0 then
 				description = string.format("%s\nTransforms to: %d (onDeEquip)", description, transformDeEquipId)
 			end
 
@@ -93,13 +93,52 @@ function Player:onMoveCreature(creature, fromPosition, toPosition)
 	return true
 end
 
-function Player:onReport(message, position, category)
+local function hasPendingReport(name, targetName, reportType)
+	local f = io.open(string.format("data/reports/players/%s-%s-%d.txt", name, targetName, reportType), "r")
+	if f then
+		io.close(f)
+		return true
+	else
+		return false
+	end
+end
+
+function Player:onReportRuleViolation(targetName, reportType, reportReason, comment, translation)
+	local name = self:getName()
+	if hasPendingReport(name, targetName, reportType) then
+		self:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Your report is being processed.")
+		return
+	end
+
+	local file = io.open(string.format("data/reports/players/%s-%s-%d.txt", name, targetName, reportType), "a")
+	if not file then
+		self:sendTextMessage(MESSAGE_EVENT_ADVANCE, "There was an error when processing your report, please contact a gamemaster.")
+		return
+	end
+
+	io.output(file)
+	io.write("------------------------------\n")
+	io.write("Reported by: " .. name .. "\n")
+	io.write("Target: " .. targetName .. "\n")
+	io.write("Type: " .. reportType .. "\n")
+	io.write("Reason: " .. reportReason .. "\n")
+	io.write("Comment: " .. comment .. "\n")
+	if reportType ~= REPORT_TYPE_BOT then
+		io.write("Translation: " .. translation .. "\n")
+	end
+	io.write("------------------------------\n")
+	io.close(file)
+	self:sendTextMessage(MESSAGE_EVENT_ADVANCE, string.format("Thank you for reporting %s. Your report will be processed by %s team as soon as possible.", targetName, configManager.getString(configKeys.SERVER_NAME)))
+	return
+end
+
+function Player:onReportBug(message, position, category)
 	if self:getAccountType() == ACCOUNT_TYPE_NORMAL then
 		return false
 	end
 
 	local name = self:getName()
-	local file = io.open("data/reports/" .. name .. " report.txt", "a")
+	local file = io.open("data/reports/bugs/" .. name .. " report.txt", "a")
 
 	if not file then
 		self:sendTextMessage(MESSAGE_EVENT_DEFAULT, "There was an error when processing your report, please contact a gamemaster.")
@@ -195,7 +234,7 @@ function Player:onGainExperience(source, exp, rawExp)
 	if self:isVip() then
 		exp = exp * 1.2
 	end
-	
+
 	return exp
 end
 
