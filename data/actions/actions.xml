@@ -7,6 +7,9 @@
 	<action fromuid="2005" touid="2007" script="quests/POIQuestChest.lua" /> <!-- POI Quest -->
 	<action fromuid="2200" touid="2204" script="levers.lua" /> <!-- Alavancas -->
 	<action itemid="10021" script="softboots.lua" />
+	
+	<!-- Potions -->
+	<action actionid="1994" script="buy_potions.lua"/>
 
 	<!-- Annihilator Quest -->
 	<action fromuid="2008" touid="2011" script="quests/annihilator/rewards.lua" />
