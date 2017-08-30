@@ -121,8 +121,13 @@
 	<monster name="Beholder" file="Bonelords/bonelord.xml" />
 	<monster name="Elder Bonelord" file="Bonelords/elder_bonelord.xml" />
 	<monster name="Eye of the Seven" file="Bonelords/eye_of_the_seven.xml" />
-
+	
 	<!-- Bosses -->
+	<monster name="Pilar We" file="Bosses/pilar we.xml"/>
+	<monster name="Pilar Ls" file="Bosses/pilar ls.xml"/>
+	<monster name="Pilar De" file="Bosses/pilar de.xml"/>
+	<monster name="Pilar Ju" file="Bosses/pilar ju.xml"/>
+	<monster name="Pilar Ud" file="Bosses/pilar ud.xml"/>
 	<monster name="Ortheus" file="Bosses/ortheus.xml"/>
 	<monster name="Abyssador" file="Bosses/abyssador.xml" />
 	<monster name="Annihilon" file="Bosses/annihilon.xml" />
