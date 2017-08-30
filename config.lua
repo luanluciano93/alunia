@@ -61,6 +61,7 @@ mysqlUser = "root"
 mysqlPass = ""
 mysqlDatabase = ""
 mysqlPort = 3306
+passwordType = 'sha1'
 mysqlSock = ""
 
 -- Misc.
