@@ -123,6 +123,7 @@
 	<monster name="Eye of the Seven" file="Bonelords/eye_of_the_seven.xml" />
 
 	<!-- Bosses -->
+	<monster name="Ortheus" file="Bosses/ortheus.xml"/>
 	<monster name="Abyssador" file="Bosses/abyssador.xml" />
 	<monster name="Annihilon" file="Bosses/annihilon.xml" />
 	<monster name="Apocalypse" file="Bosses/apocalypse.xml" />
