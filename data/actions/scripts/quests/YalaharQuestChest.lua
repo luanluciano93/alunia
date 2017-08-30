@@ -1,11 +1,11 @@
 local chests = {
-	[2005] = {itemid = 9776, count = 1}, -- armor
-	[2006] = {itemid = 9777, count = 1}, -- legs
-	[2007] = {itemid = 9778, count = 1}, -- mask
+	[3000] = {itemid = 9776, count = 1}, -- armor
+	[3001] = {itemid = 9777, count = 1}, -- legs
+	[3002] = {itemid = 9778, count = 1}, -- mask
 }
 
 function onUse(player, item, fromPosition, target, toPosition, isHotkey)
-	if item.uid < 2005 or item.uid >= 2007 then
+	if item.uid < 2999 or item.uid >= 3003 then
 		return false
 	end
 
