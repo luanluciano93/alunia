@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ortheus" nameDescription="Ortheus" race="fire" experience="30000" speed="580" manacost="0">
+	<health now="120000" max="120000"/>
+	<look type="12" head="94" body="132" legs="114" feet="81" corpse="6068"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="165" attack="155"/>
+		<attack name="manadrain" interval="1500" chance="20" range="6" radius="4" min="-500" max="-1500">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="death" interval="2000" chance="25" length="8" spread="0" min="-750" max="-1500">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="15" target="0" radius="4" min="-400" max="-900">
+			<attribute key="areaEffect" value="fire"/>
+		</attack>
+		<attack name="fire" interval="1800" chance="18" radius="5" target="1" min="-390" max="-655">
+			<attribute key="areaEffect" value="groundshaker"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="15" radius="6" target="1" min="-440" max="-1200">
+			<attribute key="areaEffect" value="fireattack"/>
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+		</attacks>
+    <defenses armor="48" defense="46">
+        <defense name="healing" interval="2000" chance="25" min="850" max="1255">
+            <attribute key="areaEffect" value="blueshimmer"/>
+        </defense>
+    </defenses>
+	<elements>
+		<element deathPercent="40"/>
+		<element icePercent="-10"/>
+		<element holyPercent="-10" />
+	</elements>
+	<immunities>
+		<immunity energy="1"/>
+		<immunity fire="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+<summons maxSummons="6">
+		<summon name="blistering fire elemental" interval="2000" chance="35" max="6"/>
+	</summons>
+	<voices interval="3000" chance="5">
+		<voice sentence="Taste the fire!!" yell="1"/>
+</voices>
+<script>
+<event name="Yalahar"/>
+</script>
+</monster>
+
