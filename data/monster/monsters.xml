@@ -3,6 +3,11 @@
 	<!-- Amazons -->
 	<monster name="Amazon" file="Amazons/amazon.xml" />
 	<monster name="Valkyrie" file="Amazons/valkyrie.xml" />
+	
+	<!-- Bandits -->
+	<monster name="Glooth Bandit" file="Outlaws/glooth bandit.xml" />
+	<monster name="Glooth Fairy" file="Outlaws/glooth fairy.xml.xml" />
+	<monster name="Glooth Brigand" file="Outlaws/glooth brigand.xml" />
 
 	<!-- Annelids -->
 	<monster name="Carrion Worm" file="Annelids/carrion_worm.xml" />
@@ -129,6 +134,7 @@
 	<monster name="Pilar Ju" file="Bosses/pilar ju.xml"/>
 	<monster name="Pilar Ud" file="Bosses/pilar ud.xml"/>
 	<monster name="Ortheus" file="Bosses/ortheus.xml"/>
+	<monster name="Araneus Marmoreus" file="Bosses/araneus marmoreus.xml" />
 	<monster name="Abyssador" file="Bosses/abyssador.xml" />
 	<monster name="Annihilon" file="Bosses/annihilon.xml" />
 	<monster name="Apocalypse" file="Bosses/apocalypse.xml" />
