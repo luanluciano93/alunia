@@ -7,9 +7,9 @@ local chests = {
 	[1256] = {itemid = 11301, count = 1}, -- zaoan armor	
 	[1257] = {itemid = 8905, count = 1}, -- raibow shield
 	[1258] = {itemid = 2523, count = 1}, -- blessed shield
-	[1259] = {itemid = 2523, count = 1}, -- demon helmet
-	[1260] = {itemid = 2523, count = 1}, -- steel boots
-	[1261] = {itemid = 2523, count = 1}, -- demon shield
+	[1259] = {itemid = 2493, count = 1}, -- demon helmet
+	[1260] = {itemid = 2645, count = 1}, -- steel boots
+	[1261] = {itemid = 2520, count = 1}, -- demon shield
 	[1262] = {itemid = 2195, count = 1}, -- boots of haste 
 	[1263] = {itemid = 6529, count = 1}, -- infernal bolt 
 	[1264] = {itemid = 2365, count = 1}, -- backpack of holding 
@@ -45,6 +45,9 @@ local chests = {
 	[1294] = {itemid = 8866, count = 1}, -- serpent coat
 	[1295] = {itemid = 5908, count = 1}, -- obsidian knife
 	[1296] = {itemid = 2342, count = 1}, -- helmet of the ancients
+	[1297] = {itemid = 2504, count = 1}, -- dwarven legs
+	[1298] = {itemid = 6433, count = 1}, -- necromancer shield
+	[1298] = {itemid = 6391, count = 1}, -- nightmare shield
 }
 
 function onUse(player, item, fromPosition, target, toPosition, isHotkey)

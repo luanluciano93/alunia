@@ -1,4 +1,6 @@
 dofile('data/lib/lib.lua')
+dofile('data/compat.lua')
+dofile('data/lib/buy_potions.lua')
 
 STORAGEVALUE_PROMOTION = 30018
 

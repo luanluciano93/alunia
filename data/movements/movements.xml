@@ -8,6 +8,10 @@
 	<movevent event="StepIn" actionid="2035" script="custom/pvp_arena.lua" />
 	<movevent event="StepIn" actionid="2036" script="custom/pvp_arena.lua" />
 	
+	<!-- Yalahar Quest -->
+	<movevent event="StepIn" uniqueid="60201" script="custom/tpbeast.lua"/>
+    	<movevent event="StepIn" uniqueid="60202" script="custom/tpbeast2.lua"/>
+	
 	<!-- Events -->
 	<movevent event="StepIn" actionid="48000" script="custom/events/duca_movements.lua"/> <!-- Duca Event -->
 	<movevent event="StepIn" actionid="48001" script="custom/events/battlefield_movements.lua"/> <!-- Battlefield Event -->

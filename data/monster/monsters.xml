@@ -3,6 +3,11 @@
 	<!-- Amazons -->
 	<monster name="Amazon" file="Amazons/amazon.xml" />
 	<monster name="Valkyrie" file="Amazons/valkyrie.xml" />
+	
+	<!-- Bandits -->
+	<monster name="Glooth Bandit" file="Outlaws/glooth bandit.xml" />
+	<monster name="Glooth Fairy" file="Outlaws/glooth fairy.xml.xml" />
+	<monster name="Glooth Brigand" file="Outlaws/glooth brigand.xml" />
 
 	<!-- Annelids -->
 	<monster name="Carrion Worm" file="Annelids/carrion_worm.xml" />
@@ -121,8 +126,15 @@
 	<monster name="Beholder" file="Bonelords/bonelord.xml" />
 	<monster name="Elder Bonelord" file="Bonelords/elder_bonelord.xml" />
 	<monster name="Eye of the Seven" file="Bonelords/eye_of_the_seven.xml" />
-
+	
 	<!-- Bosses -->
+	<monster name="Pilar We" file="Bosses/pilar we.xml"/>
+	<monster name="Pilar Ls" file="Bosses/pilar ls.xml"/>
+	<monster name="Pilar De" file="Bosses/pilar de.xml"/>
+	<monster name="Pilar Ju" file="Bosses/pilar ju.xml"/>
+	<monster name="Pilar Ud" file="Bosses/pilar ud.xml"/>
+	<monster name="Ortheus" file="Bosses/ortheus.xml"/>
+	<monster name="Araneus Marmoreus" file="Bosses/araneus marmoreus.xml" />
 	<monster name="Abyssador" file="Bosses/abyssador.xml" />
 	<monster name="Annihilon" file="Bosses/annihilon.xml" />
 	<monster name="Apocalypse" file="Bosses/apocalypse.xml" />
@@ -599,6 +611,7 @@
 	<!-- Monks -->
 	<monster name="Dark Monk" file="Monks/dark_monk.xml" />
 	<monster name="Monk" file="Monks/monk.xml" />
+	<monster name="Training Monk" file="Monks/training monk.xml" />
 
 	<!-- Mutated -->
 	<monster name="Mutated Bat" file="Mutated/mutated_bat.xml" />

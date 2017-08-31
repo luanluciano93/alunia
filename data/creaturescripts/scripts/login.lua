@@ -34,15 +34,31 @@ function onLogin(player)
 	player:registerEvent("DropLoot")
 	player:registerEvent("Rewards")
 	player:registerEvent("Promotion")
+	player:registerEvent("Yalahar")
 
 	-- Custom
 	player:sendVipDaysMessage()
 	player:checkVipLogin()
 	
+	-- OPEN CHANNERLS (ABRIR CHANNELS)
+	if table.contains({"Rookgaard", "Dawnport"}, player:getTown():getName())then
+		player:openChannel(7) -- help channel
+
+	else
+		player:openChannel(7) -- help channel
+
+	end
+	
+	
 	if not player:isPremium() then
 		player:addPremiumDays(365)
 	end
 	--
+	
+	player:sendTextMessage(messageType or MESSAGE_STATUS_CONSOLE_ORANGE, 'Welcome to Alunia-Yourots')
+	player:sendTextMessage(messageType or MESSAGE_STATUS_CONSOLE_ORANGE, 'Promotion level 20 automatic')
+	player:sendTextMessage(messageType or MESSAGE_STATUS_CONSOLE_ORANGE, 'Reports bugs please!')
+	
 
 	return true
 end

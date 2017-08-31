@@ -6,6 +6,9 @@
 	<event type="login" name="OfflineTraining" script="offlinetraining.lua" />
 	<event type="login" name="RegenerateStamina" script="regeneratestamina.lua" />
 	<event type="extendedopcode" name="ExtendedOpcode" script="extendedopcode.lua" />
+	<event type="modalwindow" name="ModalWindowHelper" script="modalwindowhelper.lua" />
+	<event type="advance" name="Recompensa" script="recompensa.lua"/>
+	<event type="advance" name="Recompensavoc" script="recompensavoc.lua"/>
 
 	<event type="death" name="PlayerDeath" script="playerdeath.lua" />
 	<event type="death" name="DropLoot" script="droploot.lua" />
