@@ -16,12 +16,17 @@
 	<event type="login" name="Duca-Login" script="custom/events/duca_creaturescript.lua"/>
 	<event type="logout" name="Duca-Logout" script="custom/events/duca_creaturescript.lua"/>
 	<event type="preparedeath" name="Duca-Death" script="custom/events/duca_creaturescript.lua"/>
-	
+
 	<!-- Battlefield Event -->
 	<event type="login" name="Battlefield-Login" script="custom/events/battlefield_creaturescript.lua"/>
 	<event type="logout" name="Battlefield-Logout" script="custom/events/battlefield_creaturescript.lua"/>
 	<event type="preparedeath" name="Battlefield-Death" script="custom/events/battlefield_creaturescript.lua"/>
-	
+
+	<!-- Zumbi Event -->	
+	<event type="login" name="Zumbi-Login" script="custom/events/zumbi_creaturescript.lua"/>
+	<event type="logout" name="Zumbi-Logout" script="custom/events/zumbi_creaturescript.lua"/>
+	<event type="healthchange" name="Zumbi" script="custom/events/zumbi_creaturescript.lua" />
+
 	<!-- PVP Arena -->
 	<event type="login" name="Arena-Login" script="custom/pvp_arena.lua"/>
 	<event type="logout" name="Arena-Logout" script="custom/pvp_arena.lua"/>

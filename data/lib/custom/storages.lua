@@ -19,4 +19,5 @@ Storage = {
 	DucaTeam = 3011,
 	DucaPoints = 3012,
 	BattlefieldTeam = 3013,
+	Zumbi = 3014,
 }

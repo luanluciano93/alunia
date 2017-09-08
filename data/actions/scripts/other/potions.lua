@@ -1,18 +1,15 @@
 local berserk = Condition(CONDITION_ATTRIBUTES)
-berserk:setParameter(CONDITION_PARAM_SUBID, 7)
 berserk:setParameter(CONDITION_PARAM_TICKS, 10 * 60 * 1000)
 berserk:setParameter(CONDITION_PARAM_SKILL_MELEE, 5)
 berserk:setParameter(CONDITION_PARAM_SKILL_SHIELD, -10)
 berserk:setParameter(CONDITION_PARAM_BUFF_SPELL, true)
 
 local mastermind = Condition(CONDITION_ATTRIBUTES)
-mastermind:setParameter(CONDITION_PARAM_SUBID, 8)
 mastermind:setParameter(CONDITION_PARAM_TICKS, 10 * 60 * 1000)
 mastermind:setParameter(CONDITION_PARAM_STAT_MAGICPOINTS, 3)
 mastermind:setParameter(CONDITION_PARAM_BUFF_SPELL, true)
 
 local bullseye = Condition(CONDITION_ATTRIBUTES)
-bullseye:setParameter(CONDITION_PARAM_SUBID, 9)
 bullseye:setParameter(CONDITION_PARAM_TICKS, 10 * 60 * 1000)
 bullseye:setParameter(CONDITION_PARAM_SKILL_DISTANCE, 5)
 bullseye:setParameter(CONDITION_PARAM_SKILL_SHIELD, -10)
@@ -93,7 +90,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		end
 
 		target:say("Aaaah...", TALKTYPE_MONSTER_SAY)
-		player:addItem(potion.flask, 1)
+		-- player:addItem(potion.flask, 1)
 	end
 
 	if potion.condition then

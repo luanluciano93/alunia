@@ -7,9 +7,9 @@ local chests = {
 	[1256] = {itemid = 11301, count = 1}, -- zaoan armor	
 	[1257] = {itemid = 8905, count = 1}, -- raibow shield
 	[1258] = {itemid = 2523, count = 1}, -- blessed shield
-	[1259] = {itemid = 2523, count = 1}, -- demon helmet
-	[1260] = {itemid = 2523, count = 1}, -- steel boots
-	[1261] = {itemid = 2523, count = 1}, -- demon shield
+	[1259] = {itemid = 2493, count = 1}, -- demon helmet
+	[1260] = {itemid = 2645, count = 1}, -- steel boots
+	[1261] = {itemid = 2520, count = 1}, -- demon shield
 	[1262] = {itemid = 2195, count = 1}, -- boots of haste 
 	[1263] = {itemid = 6529, count = 1}, -- infernal bolt 
 	[1264] = {itemid = 2365, count = 1}, -- backpack of holding 
@@ -30,7 +30,7 @@ local chests = {
 	[1279] = {itemid = 2488, count = 1}, -- crown legs
 	[1280] = {itemid = 2506, count = 1}, -- dragon scale helmet
 	[1281] = {itemid = 2454, count = 1}, -- war axe
-	[1282] = {itemid = 2523, count = 1}, -- demon shield
+	[1282] = {itemid = 2520, count = 1}, -- demon shield
 	[1283] = {itemid = 2466, count = 1}, -- golden armor
 	[1284] = {itemid = 2492, count = 1}, -- dragon scale mail
 	[1285] = {itemid = 8885, count = 1}, -- divine plane
@@ -45,6 +45,7 @@ local chests = {
 	[1294] = {itemid = 8866, count = 1}, -- serpent coat
 	[1295] = {itemid = 5908, count = 1}, -- obsidian knife
 	[1296] = {itemid = 2342, count = 1}, -- helmet of the ancients
+	[1297] = {itemid = 22726, count = 1}, -- melting horn
 }
 
 function onUse(player, item, fromPosition, target, toPosition, isHotkey)

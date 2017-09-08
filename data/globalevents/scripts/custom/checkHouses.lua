@@ -1,10 +1,10 @@
 local function doCheckHouses()
 
 	local dias = 30
-	local tempo = os.time() - (dias * 24 * 60 * 60) 
+	local tempo = os.time() - (dias * 86400) 
 	local registros = db.storeQuery("SELECT `houses`.`owner`, `houses`.`id` FROM `houses`,`players` WHERE `houses`.`owner` != 0 AND `houses`.`owner` = `players`.`id` AND `players`.`lastlogin` <= " .. tempo .. ";")
 
-if registros ~= false then
+	if registros ~= false then
 		local count = 0
 		repeat
 			count = count + 1

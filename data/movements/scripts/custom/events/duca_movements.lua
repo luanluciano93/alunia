@@ -5,7 +5,7 @@ function onStepIn(creature, item, position, fromPosition)
 		return false
 	end
 
-	if player:getGroup():getAccess() then
+	if creature:getGroup():getAccess() then
 		creature:teleportTo(DUCA.TEAMS[1].temple)
 		return true
 	end

@@ -22,4 +22,7 @@
 	<!-- Battlefield Event -->
 	<globalevent name="Battlefield1" time="12:00:00" script="custom/events/battlefield_globalevents.lua" />
 	<globalevent name="Battlefield2" time="19:00:00" script="custom/events/battlefield_globalevents.lua" />
+	
+	<!-- Zumbi Event -->
+	<globalevent name="Zumbi" time="17:00:00" script="custom/events/zumbi_globalevents.lua" />
 </globalevents>

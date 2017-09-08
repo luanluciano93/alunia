@@ -11,6 +11,7 @@
 	<!-- Events -->
 	<movevent event="StepIn" actionid="48000" script="custom/events/duca_movements.lua"/> <!-- Duca Event -->
 	<movevent event="StepIn" actionid="48001" script="custom/events/battlefield_movements.lua"/> <!-- Battlefield Event -->
+	<movevent event="StepIn" actionid="48002" script="custom/events/zumbi_movements.lua"/> <!-- Zumbi Event -->
 	
 	<!-- Decaying tiles -->
 	<movevent event="StepIn" itemid="293" script="decay.lua" />

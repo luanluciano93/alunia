@@ -5751,9 +5751,9 @@
 	<spawn centerx="822" centery="556" centerz="8" radius="5">
 		<monster name="Yeti" x="-1" y="-3" z="8" spawntime="60" />
 		<monster name="Frost Dragon" x="2" y="-3" z="8" spawntime="60" />
-		<monster name="Frost Dragon" x="-4" y="-2" z="8" spawntime="60" />
+		<monster name="Frost Dragon" x="-3" y="-2" z="8" spawntime="60" />
 		<monster name="Yeti" x="2" y="0" z="8" spawntime="60" />
-		<monster name="Frost Dragon" x="-2" y="3" z="8" spawntime="60" />
+		<monster name="Frost Dragon" x="-1" y="3" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="746" centery="568" centerz="8" radius="5">
 		<monster name="Ice Witch" x="2" y="-2" z="8" spawntime="60" />
@@ -5787,6 +5787,13 @@
 		<monster name="Ice Witch" x="-2" y="-2" z="8" spawntime="60" />
 		<monster name="Ice Witch" x="4" y="1" z="8" spawntime="60" />
 		<monster name="Frost Dragon" x="0" y="2" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="727" centery="607" centerz="8" radius="5">
+		<monster name="Frost Dragon" x="2" y="-3" z="8" spawntime="60" />
+		<monster name="Ice Witch" x="4" y="-2" z="8" spawntime="60" />
+		<monster name="Ice Witch" x="-3" y="1" z="8" spawntime="60" />
+		<monster name="Frost Dragon" x="-5" y="2" z="8" spawntime="60" />
+		<monster name="Frost Dragon" x="5" y="2" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="211" centery="691" centerz="8" radius="1">
 		<monster name="Grim Reaper" x="1" y="0" z="8" spawntime="60" />

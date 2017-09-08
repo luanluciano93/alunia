@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
 	<!-- Custom Styller -->
-	<action fromuid="1251" touid="1296" script="quests.lua" /> <!-- quests -->
+	<action fromuid="1251" touid="1297" script="quests.lua" /> <!-- quests -->
 	<action fromuid="2000" touid="2003" script="quests/bigQuestChest.lua" /> <!-- Big Quest -->
 	<action uniqueid="2004" script="quests/demonHelmet.lua" /> <!-- Demon Helmet Addon -->
 	<action fromuid="2005" touid="2007" script="quests/POIQuestChest.lua" /> <!-- POI Quest -->
 	<action fromuid="2200" touid="2204" script="levers.lua" /> <!-- Alavancas -->
 	<action itemid="10021" script="softboots.lua" />
+	<action itemid="22726" script="ursagrodon.lua" />
+	<action actionid="2033" script="custom/alavanca_inteligente.lua"/> <!-- Alavanca Inteligente Potions Life -->
+	<action actionid="2034" script="custom/alavanca_inteligente.lua"/> <!-- Alavanca Inteligente Potions Mana -->
 
 	<!-- Annihilator Quest -->
 	<action fromuid="2008" touid="2011" script="quests/annihilator/rewards.lua" />

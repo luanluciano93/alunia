@@ -51,6 +51,26 @@ function Player.getLossPercent(self)
 	return lossPercent[blessings]
 end
 
+function Player.isDruid(self)
+	return table.contains({2, 6}, self:getVocation():getId())
+end
+
+function Player.isKnight(self)
+	return table.contains({4, 8}, self:getVocation():getId())
+end
+
+function Player.isPaladin(self)
+	return table.contains({3, 7}, self:getVocation():getId())
+end
+
+function Player.isMage(self)
+	return table.contains({1, 2, 5, 6}, self:getVocation():getId())
+end
+
+function Player.isSorcerer(self)
+	return table.contains({1, 5}, self:getVocation():getId())
+end
+
 function Player.isPremium(self)
 	return self:getPremiumDays() > 0 or configManager.getBoolean(configKeys.FREE_PREMIUM)
 end
