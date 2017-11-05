@@ -1,4 +1,5 @@
 Storage = {
+	-- storages from 5000 to 5500 reserved for tasks
 	Annihilator = 3000,
 	BigQuest = 3001,
 	DemonOak = {

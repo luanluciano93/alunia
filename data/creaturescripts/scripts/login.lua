@@ -34,6 +34,7 @@ function onLogin(player)
 	player:registerEvent("DropLoot")
 	player:registerEvent("Rewards")
 	player:registerEvent("Promotion")
+	player:registerEvent("tasksystem")
 
 	-- Custom
 	player:sendVipDaysMessage()

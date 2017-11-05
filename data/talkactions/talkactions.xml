@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talkactions>
 	<!-- custom talkactions -->
-	<talkaction words="/addvip" separator=" " script="addvip.lua" />
-	<talkaction words="!aol" script="aol.lua" />
-	<talkaction words="!bless" script="aol.lua" />	
+	<talkaction words="/addvip" separator=" " script="custom/addvip.lua" />
+	<talkaction words="!aol" script="custom/aol.lua" />
+	<talkaction words="!bless" script="custom/bless.lua" />
+	<talkaction words="!task" separator=" " script="custom/task_system.lua" />
+	<talkaction words="!tasks" separator=" " script="custom/task_system.lua" />
+	<talkaction words="/save" separator=" " script="custom/save.lua" />
 	
 	<!-- commands -->
 	<talkaction words="/ban" separator=" " script="ban.lua" />

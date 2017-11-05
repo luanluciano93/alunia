@@ -195,7 +195,7 @@ local function creatureSayCallback(cid, type, msg)
         end
         if playerExists(transfer[cid]) then
 		 local arrayDenied = {"accountmanager", "rooksample", "druidsample", "sorcerersample", "knightsample", "paladinsample"}
-		    if isInArray(arrayDenied, string.gsub(transfer[cid]:lower(), " ", "")) then
+		    if table.contains(arrayDenied, string.gsub(transfer[cid]:lower(), " ", "")) then
                 npcHandler:say('This player does not exist.', cid)
                 npcHandler.topic[cid] = 0
                 return true

@@ -31,4 +31,7 @@
 	<event type="login" name="Arena-Login" script="custom/pvp_arena.lua"/>
 	<event type="logout" name="Arena-Logout" script="custom/pvp_arena.lua"/>
 	<event type="preparedeath" name="Arena-Death" script="custom/pvp_arena.lua"/>
+	
+	<!-- Task System -->
+	<event type="kill" name="tasksystem" script="custom/task_system.lua"/>	
 </creaturescripts>
