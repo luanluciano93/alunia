@@ -223,7 +223,7 @@ function Player:onGainExperience(source, exp, rawExp)
 		useStamina(self)
 
 		local staminaMinutes = self:getStamina()
-		if staminaMinutes > 2400 and self:isPremium() then
+		if staminaMinutes > 2400 then
 			exp = exp * 1.5
 		elseif staminaMinutes <= 840 then
 			exp = exp * 0.5
@@ -231,7 +231,7 @@ function Player:onGainExperience(source, exp, rawExp)
 	end
 
 	-- Vip Account Gain +20% Experience
-	if self:isVip() then
+	if self:isPremium() then
 		exp = exp * 1.2
 	end
 

@@ -3,11 +3,6 @@ function onSay(player, words, param)
 	if housePrice == -1 then
 		return true
 	end
-
-	if not player:isPremium() then
-		player:sendCancelMessage("You need a premium account.")
-		return false
-	end
 	
 	if player:getLevel() < 150 then
 		player:sendCancelMessage("You need level 150 or more to buy house.")

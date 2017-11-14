@@ -74,21 +74,17 @@ if Modules == nil then
 		end
 
 		local player = Player(cid)
-		if player:isPremium() or not parameters.premium then
-			local promotion = player:getVocation():getPromotion()
-			if player:getStorageValue(STORAGEVALUE_PROMOTION) == 1 then
-				npcHandler:say("You are already promoted!", cid)
-			elseif player:getLevel() < parameters.level then
-				npcHandler:say("I am sorry, but I can only promote you once you have reached level " .. parameters.level .. ".", cid)
-			elseif not player:removeMoney(parameters.cost) then
-				npcHandler:say("You do not have enough money!", cid)
-			else
-				npcHandler:say(parameters.text, cid)
-				player:setVocation(promotion)
-				player:setStorageValue(STORAGEVALUE_PROMOTION, 1)
-			end
+		local promotion = player:getVocation():getPromotion()
+		if player:getStorageValue(STORAGEVALUE_PROMOTION) == 1 then
+			npcHandler:say("You are already promoted!", cid)
+		elseif player:getLevel() < parameters.level then
+			npcHandler:say("I am sorry, but I can only promote you once you have reached level " .. parameters.level .. ".", cid)
+		elseif not player:removeMoney(parameters.cost) then
+			npcHandler:say("You do not have enough money!", cid)
 		else
-			npcHandler:say("You need a premium account in order to get promoted.", cid)
+			npcHandler:say(parameters.text, cid)
+			player:setVocation(promotion)
+			player:setStorageValue(STORAGEVALUE_PROMOTION, 1)
 		end
 		npcHandler:resetNpc(cid)
 		return true
@@ -129,7 +125,7 @@ if Modules == nil then
 			error("StdModule.bless called without any npcHandler instance.")
 		end
 
-		if not npcHandler:isFocused(cid) or getWorldType() == WORLD_TYPE_PVP_ENFORCED then
+		if not npcHandler:isFocused(cid) or Game.getWorldType() == WORLD_TYPE_PVP_ENFORCED then
 			return false
 		end
 
@@ -365,7 +361,7 @@ if Modules == nil then
 				elseif i == 6 then
 					premium = temp == "true"
 				else
-					print("[Warning : " .. getCreatureName(getNpcCid()) .. "] NpcSystem:", "Unknown parameter found in travel destination parameter.", temp, destination)
+					print("[Warning : " .. Npc():getName() .. "] NpcSystem:", "Unknown parameter found in travel destination parameter.", temp, destination)
 				end
 				i = i + 1
 			end

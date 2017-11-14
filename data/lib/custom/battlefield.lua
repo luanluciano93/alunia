@@ -29,15 +29,20 @@ function BattlefieldTeleportCheck()
 		local item = tile:getItemById(1387)
 		if item then
 			item:remove()
-			Game.broadcastMessage("Battlefield will start in ".. BATTLEFIELD.OPEN_GATE_MINUTES .." minutes, please create your strategy!", MESSAGE_STATUS_WARNING)
 
 			if (Game.getStorageValue(BATTLEFIELD.TOTAL_PLAYERS) % 2) ~= 0 then
 				BattlefieldRemovePlayer(Game.getStorageValue(BATTLEFIELD.LAST_PLAYER))
 			end
 
-			print("> BattleField Event will begin now. [".. Game.getStorageValue(BATTLEFIELD.TOTAL_PLAYERS) .."].")
+			if Game.getStorageValue(BATTLEFIELD.TOTAL_PLAYERS) > 0 then
+				Game.broadcastMessage("Battlefield will start in ".. BATTLEFIELD.OPEN_GATE_MINUTES .." minutes, please create your strategy!", MESSAGE_STATUS_WARNING)
+
+				print("> BattleField Event will begin now. [".. Game.getStorageValue(BATTLEFIELD.TOTAL_PLAYERS) .."].")
 			
-			addEvent(BattlefieldCheckGate, BATTLEFIELD.OPEN_GATE_MINUTES * 60 * 1000)
+				addEvent(BattlefieldCheckGate, BATTLEFIELD.OPEN_GATE_MINUTES * 60 * 1000)
+			else
+				print("> BattleField Event ended up not having the participation of players.")
+			end
 		else		
 			Game.broadcastMessage("The BattleField Event was opened and will close in ".. BATTLEFIELD.TELEPORT.CLOSE_MINUTES .." minutes.", MESSAGE_STATUS_WARNING)
 			Game.setStorageValue(BATTLEFIELD.TOTAL_PLAYERS, 0)

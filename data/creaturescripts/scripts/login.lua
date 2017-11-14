@@ -37,14 +37,7 @@ function onLogin(player)
 	player:registerEvent("tasksystem")
 
 	-- Custom
-	player:sendVipDaysMessage()
-	player:checkVipLogin()
-
 	player:openChannel(7) -- help channel
-
-	if not player:isPremium() then
-		player:addPremiumDays(365)
-	end
 
 	return true
 end

@@ -21,4 +21,6 @@ Storage = {
 	DucaPoints = 3012,
 	BattlefieldTeam = 3013,
 	Zumbi = 3014,
+	TreinerDelay = 3015,
+	Achievements = 3016
 }

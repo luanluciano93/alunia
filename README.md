@@ -8,11 +8,17 @@ Desenvolvimento de um servidor Yourots custom nas versões atuais do tibia.
 - Vip System, Clean Database (players, accounts e houses inativas), Reward Level System, Arena PVP.
 - Duca Evento, Zumbi Evento, BattleField Evento.
 - Demon Helmet Quest, Annihilator, Pist of Inferno, Demon Oak, Big Quest.
-- [Download-1](https://www.dropbox.com/s/2act71mn69n8wz6/alunia2017.rar?dl=0) ou [Download-2](https://www.4shared.com/rar/M_CestYwca/alunia2017.html).
+- [Download-1](https://www.dropbox.com/s/s2713oo76jl4c7l/alunia2017.rar?dl=0) ou [Download-2](https://www.4shared.com/rar/Lio3WuoTca/alunia2017.html).
 
 ### Créditos:
-- luanluciano93 (whatsapp: [18] 99743-2125)
+- luanluciano93 (whats: [18] 99743-2125, discord: luanluciano93#1030)
 - GOD Bon (mapa yourots)
 - TFS team (pela engine do servidor)
 - leoloko12 (mapa styller)
 - Jobs (correções no servidor)
+
+### Contato:
+- whatsapp: [18] 99743-2125
+- discord: luanluciano93#1030
+- skype: luanluciano.
+- email: luanluciano@outlook.com

@@ -14,8 +14,8 @@ function onSay(player, words, param)
 		reason = string.trim(param:sub(separatorPos + 1))
 	end
 
-	local accountId = getAccountNumberByPlayerName(name)
-	if accountId == 0 then
+	local accountId = Player(name):getAccountId()
+	if accountId == nil then
 		return false
 	end
 

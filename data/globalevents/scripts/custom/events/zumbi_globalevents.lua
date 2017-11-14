@@ -6,9 +6,13 @@ local function Zumbi_Verifica()
 		local item = tile:getItemById(1387)
 		if item then
 			item:remove()
-			Game.broadcastMessage("The Zumbi Event will begin now!", MESSAGE_STATUS_WARNING)
-			Game.createMonster("Zumbi", ZUMBI.PositionEnterEvent)
-			print(">>> Zumbi Event was started. <<<")
+			if Game.getStorageValue(ZUMBI.TotalPlayers) > 0 then
+				Game.broadcastMessage("The Zumbi Event will begin now!", MESSAGE_STATUS_WARNING)
+				Game.createMonster("Zumbi", ZUMBI.PositionEnterEvent)
+				print(">>> Zumbi Event was started. <<<")
+			else
+				print("> Zumbi Event ended up not having the participation of players.")
+			end
 		else
 			Game.broadcastMessage("The Zumbi Event was opened and will close in ".. ZUMBI.TeleportTimeClose .." minutes.", MESSAGE_STATUS_WARNING)
 			Game.setStorageValue(ZUMBI.TotalPlayers, 0)
