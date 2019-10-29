@@ -3,7 +3,8 @@
 Desenvolvimento de um servidor Yourots custom nas versões atuais do tibia.
 
 ### Informações do Servidor e Sistemas:
-- Versão: 10.98 ([TFS 1.3 rev: 2540](https://github.com/otland/forgottenserver)).
+- Versão: 10.98 
+- Engine: [TFS 1.3 rev: 2540](https://github.com/otland/forgottenserver)
 - War System, Addons System, Mounts System, Market System, Task System e Training OFF.
 - Vip System, Clean Database (players, accounts e houses inativas), Reward Level System, Arena PVP.
 - Duca Evento, Zumbi Evento, BattleField Evento.
@@ -17,8 +18,5 @@ Desenvolvimento de um servidor Yourots custom nas versões atuais do tibia.
 - leoloko12 (mapa styller)
 - Jobs (correções no servidor)
 
-### Contato:
-- whatsapp: [18] 99743-2125
-- discord: luanluciano93#1030
-- skype: luanluciano.
-- email: luanluciano@outlook.com
+### Download:
+- Download completo no [tópico do projeto](https://tibiaking.com/forums/topic/81946-1098-alunia-yourots-custom-download/) no fórum Tibiaking.
