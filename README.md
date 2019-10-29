@@ -9,7 +9,6 @@ Desenvolvimento de um servidor Yourots custom nas versões atuais do tibia.
 - Vip System, Clean Database (players, accounts e houses inativas), Reward Level System, Arena PVP.
 - Duca Evento, Zumbi Evento, BattleField Evento.
 - Demon Helmet Quest, Annihilator, Pist of Inferno, Demon Oak, Big Quest.
-- [Download-1](https://www.dropbox.com/s/s2713oo76jl4c7l/alunia2017.rar?dl=0) ou [Download-2](https://www.4shared.com/rar/Lio3WuoTca/alunia2017.html).
 
 ### Créditos:
 - luanluciano93
